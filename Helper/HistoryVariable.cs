@@ -43,7 +43,7 @@ public class HistoryVariable<T>{
 		get{
 			if(index>0) throw new IndexOutOfRangeException("Index for HistoryVariable(s) must be <0. Found "+index+".");
 			if(index==0) return data[top];
-			return data[(data.Length-(-index%data.Length))%data.Length];
+			return data[(top-(-index%data.Length)+data.Length)%data.Length];
 		}
 	}
 }
