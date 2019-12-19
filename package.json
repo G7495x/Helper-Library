@@ -1,0 +1,23 @@
+{
+	"name":        "@g7495x/helper-library",
+	"version":     "1.0.1",
+	"description": "A helper library across various languages.",
+	"main":        "index.js",
+	"scripts":     {
+		"test":      "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository":  {
+		"type":      "git",
+		"url":       "git+https://github.com/G7495x/Helper-Library.git"
+	},
+	"keywords":    [
+		             "helper",
+		             "library"
+	],
+	"author":      "G7495x",
+	"license":     " MIT",
+	"bugs":        {
+		"url":       "https://github.com/G7495x/Helper-Library/issues"
+	},
+	"homepage":    "https://github.com/G7495x/Helper-Library#readme"
+}

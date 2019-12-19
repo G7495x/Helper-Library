@@ -1,10 +1,14 @@
 ﻿/// <see href="https://github.com/G7495x/Helper-Library">Up-to-date code here.</see>
+
+// TODO
+// Iterable / iterator
+// Initialization
 using System;
 
 /// <summary>
 /// HistoryVariable is a variable that can store past values.
-/// Internally uses fixed-size queues.
 /// By default, creates a variable that can store 2 values (1 current + 1 previous).
+/// Internally uses fixed-size queues.
 /// </summary>
 public class HistoryVariable<T>{
 
